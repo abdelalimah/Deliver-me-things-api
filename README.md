@@ -11,6 +11,6 @@
     cd Deliver-me-things-api
     git checkout develop
     touch .env && echo "MYSQL_ROOT_PASSWORD=root" > .env
-    docker-compose up
+    docker-compose up -d
 
 </dl>
