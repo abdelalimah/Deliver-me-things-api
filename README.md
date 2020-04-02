@@ -6,7 +6,8 @@
     https://docs.docker.com/compose/install/
        
   <dt>copy and past the following commands in your terminal :</dt>
-    
+
+    git clone https://github.com/DeliverMeThings/Deliver-me-things-api.git
     git checkout develop
     touch .env && echo "MYSQL_ROOT_PASSWORD=root" > .env
     docker-compose up
