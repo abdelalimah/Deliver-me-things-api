@@ -12,6 +12,8 @@ services:
 
   phpmyadmin:
     image: phpmyadmin/phpmyadmin
+    depends_on: 
+      - db
     restart: always
     ports:
       - 8080:80
