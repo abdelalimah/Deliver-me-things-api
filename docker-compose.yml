@@ -9,11 +9,13 @@ services:
       MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
     volumes: 
       - ./docker-data/mysql-data:/var/lib/mysql
-
+      ports:
+      - 3306:3306
+    
+    
   phpmyadmin:
     image: phpmyadmin/phpmyadmin
     depends_on: 
       - db
     restart: always
-    ports:
-      - 8080:80
+  c
