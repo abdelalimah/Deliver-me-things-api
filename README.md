@@ -1,3 +1,5 @@
+## Dockerized mysql & phpMyAdmin for easy access
+
 ## Setup
 
 <dl>
