@@ -9,7 +9,7 @@
        
   <dt>copy and past the following commands in your terminal :</dt>
 
-    git clone https://github.com/DeliverMeThings/Deliver-me-things-api.git
+    git clone git@github.com:abdelalimah/mysql-phpMyAdmin.git
     cd Deliver-me-things-api
     git checkout develop
     touch .env && echo "MYSQL_ROOT_PASSWORD=root" > .env
