@@ -1,7 +1,5 @@
 ## Dockerized mysql & phpMyAdmin for easy access
 
-## Setup
-
   ## install docker-compose
 
     https://docs.docker.com/compose/install/
