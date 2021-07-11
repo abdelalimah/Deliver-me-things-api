@@ -12,3 +12,4 @@
     docker-compose up -d
 
 
+### PhpMyAdmin should be available on port 8080
